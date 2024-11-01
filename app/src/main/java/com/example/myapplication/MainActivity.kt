@@ -69,7 +69,7 @@ fun GridBox(title: String, content: String, color: Color, modifier: Modifier = M
 @Composable
 fun Paragraphs(modifier: Modifier = Modifier) {
     Column(
-        modifier = Modifier.fillMaxSize()
+        modifier = modifier.fillMaxSize()
     ) {
         Row(Modifier.weight(1f)) {
             GridBox(
